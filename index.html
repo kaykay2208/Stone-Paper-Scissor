@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>stone paper scissors</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Meera+Inimai&family=Monsieur+La+Doulaise&family=MonteCarlo&family=Montserrat:ital,wght@0,100;0,600;0,700;0,900;1,100&family=Nova+Mono&family=Oswald:wght@200;300&family=Oxygen:wght@300&family=Quintessential&family=Raleway:wght@100&family=Sacramento&family=Smooch&family=Ubuntu:ital,wght@0,300;0,500;0,700;1,400&display=swap');
+  </style>
+
+  <link rel="stylesheet" href="css/styles.css">
+
+</head >
+
+<body style="background-color:#BB6464;" >
+  <div class="formmast" >
+
+<h1 class="masthead" >Stone Paper Scissors</h1>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class=" formelements">
+        <form action="stone-paper-sci.html" method="GET">
+          <lable class="">Player 1 Name: </lable><br />
+          <input class="form-group" id="nff1" type="text" /> <br />
+          <lable>Player 2 Name: </lable><br />
+          <input class="form-group" id="nff2" type="text" /><br />
+          <input  class="btn btn-dark" type="submit" />
+        </form>
+      </div>
+
+    </div>
+
+
+
+    <div class=" gamerules col-sm-6">
+      <div class="rul">
+
+
+      <h1 class=" gamerules formruleshead" style="text-align:center;">Rules for the game</h1>
+      <ol>
+
+
+      <li>game allows two participants</li>
+      <li>
+          Players should enter their name before starting the game
+        </li>
+
+
+      <li>
+        'shake' button will be presented to initiate the game
+      </li>
+
+
+        <li>
+          stone>scissor>paper>stone
+        </li>
+
+      <li>
+          winner of each session will be dispalyed at the top
+      </li>
+
+
+    <li>
+      consolidated winner will be announced at result tab
+    </li>
+
+
+    </ol>
+    </div>
+    </div>
+
+  </div>
+
+
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+      document.querySelector('form').addEventListener("submit", function() {
+        var x = document.getElementById('nff1').value;
+        var y = document.getElementById('nff2').value;
+        localStorage.setItem("p1", x);
+        localStorage.setItem("p2", y);
+      })
+    </script>
+</body>
+</body>
+
+</html>

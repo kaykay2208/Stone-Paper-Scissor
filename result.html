@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>stone paper scissor</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Meera+Inimai&family=Monsieur+La+Doulaise&family=MonteCarlo&family=Montserrat:ital,wght@0,100;0,600;0,700;0,900;1,100&family=Nova+Mono&family=Oswald:wght@200;300&family=Oxygen:wght@300&family=Quintessential&family=Raleway:wght@100&family=Sacramento&family=Smooch&family=Ubuntu:ital,wght@0,300;0,500;0,700;1,400&display=swap');
+        </style>
+  <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body style="background-color:#7EB5A6; color:#E8D0B3;">
+    <div>
+      <h1 class="resulthead" >Result</h1>
+    </div>
+<h1 class="resultplayer">Player won</h1>
+
+<script>
+  var r1=localStorage.getItem('r1');
+  var r2=localStorage.getItem('r2');
+  var x=localStorage.getItem('p1');
+    var y=localStorage.getItem('p2');
+  var resultplayer=document.querySelector('.resultplayer');
+  if(r1>r2){
+    resultplayer.innerHTML=x+" won";
+  }
+else{
+  resultplayer.innerHTML=y+" won";
+}
+</script>
+  </body>
+</html>

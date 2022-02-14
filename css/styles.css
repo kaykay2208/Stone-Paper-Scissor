@@ -1,0 +1,88 @@
+body{
+  background-color:#EFEFEF;
+}
+img{
+  width:50%;
+  padding-top:3%;
+  padding-bottom: 3%;
+}
+p{
+  font-size: 2rem;
+}
+h1{
+  font-family: 'Cutive Mono', monospace;
+}
+h2{
+  font-family: 'Nova Mono', monospace;
+}
+input[type=text]{
+  margin-bottom: 3%;
+  margin-top:3%;
+}
+button{
+  margin-left: 3%;
+}
+.masthead{
+  font-family: 'Oxygen', sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size: 4rem;
+  padding-top: 3%;
+}
+li{
+  padding-top: 3%;
+}
+.container{
+  text-align: center;
+}
+.anim{
+  animation:shake 0.5s infinite;
+
+}
+.formelements{
+  padding:10% 15%;
+  text-align: center;
+}
+.formmast{
+  color:#F5EEDC;
+}
+.formruleshead{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+.gamerules{
+  font-size: 125%;
+}
+.rul{
+  padding-top: 10%;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+.resulthead{
+text-align: center;
+padding-top: 5%;
+padding-bottom: 5%;
+font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+font-size: 4rem;
+}
+.resultplayer{
+  text-align: center;
+  font-size: 2rem;
+  font-family:  'Oswald', sans-serif;
+  font-weight: 900;
+
+}
+
+@keyframes shake{
+  0%{
+    transform: rotate(6deg);
+  }
+  50%{
+    transform: rotate(-6deg);
+  }
+  100%{
+    transform:rotate(6deg);
+  }
+}
