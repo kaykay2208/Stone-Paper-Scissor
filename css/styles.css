@@ -96,4 +96,17 @@ font-size: 4rem;
   .fun{
     font-size:1.5rem;
   }
+    .masthead{
+    font-size: 4rem;
+  }
+}
+.rul{
+  text-align: center;
+}
+.resulthead{
+  font-size: 4rem;
+}
+.resultplayer{
+  font-size: 3.5rem;
+}
 }
